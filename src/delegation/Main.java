@@ -8,8 +8,7 @@ public class Main {
         character.setAction(new StoppingAction());
         character.setAction(new WalkingAction());
         character.setAction(new SleepingAction());
-        
-        System.out.println(System.getProperty("os.name"));
+
     }
     
 }
